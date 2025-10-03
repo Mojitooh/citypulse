@@ -1,0 +1,14 @@
+:root { --teal:#3bc9b0; --ink:#222; --bg:#f6f7f9; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; }
+body {
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 48px;
+}
+h1 { color: var(--teal); margin: 0 0 8px; }
+p { opacity: .85; margin: 0; }
